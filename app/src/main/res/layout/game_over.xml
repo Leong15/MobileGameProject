@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bggameover"
+    tools:context=".Activities.GameOver">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="100dp" />
+
+         <ImageView
+             android:id="@+id/win"
+             android:layout_width="match_parent"
+             android:layout_height="144dp"
+             />
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="20dp" />
+         <Button
+             android:id="@+id/BackHome"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:onClick="handlerMethod"
+             android:layout_gravity="center"
+             android:text="Back to Home"
+             tools:ignore="OnClick" />
+         <Button
+             android:id="@+id/Restart"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:onClick="handlerMethod"
+             android:layout_gravity="center"
+             android:text="Restart"
+             tools:ignore="OnClick" />
+         <Button
+             android:id="@+id/close"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:onClick="handlerMethod"
+             android:layout_gravity="center"
+             android:text="Close Game"
+             tools:ignore="OnClick" />
+
+     </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context=".Activities.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            app:srcCompat="@drawable/title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="handlerMethod"
+            android:layout_gravity="center"
+            android:text="Start"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="handlerMethod"
+            android:layout_gravity="center"
+            android:text="About"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="handlerMethod"
+            android:layout_gravity="center"
+            android:text="Setting"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="handlerMethod"
+            android:layout_gravity="center"
+            android:text="Close Game"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
