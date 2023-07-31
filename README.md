@@ -1,6 +1,10 @@
 # MobileGameProject
 ### Create a mobile game with Android Studio by using Java
 
+> ***All the Xml files in app->src->main->res->layout***
+
+> ***All the java files in app->src->main->java/com/example/mobileproject***
+
 ### This game is based on a game called 魔塔
 
 
