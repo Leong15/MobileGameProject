@@ -20,7 +20,7 @@
 
 ![image](https://github.com/Leong15/MobileGameProject/assets/53085228/52a50ba3-65e0-4e06-ae13-b40dd0098de9)
 
-### Stage 1
+### Stage 1 - Player control by joystick
 
 ![image](https://github.com/Leong15/MobileGameProject/assets/53085228/b0ee5b9c-4a3c-485e-985e-4880c7fc63d4)
 
